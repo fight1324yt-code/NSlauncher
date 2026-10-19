@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020817">
+
+    <ImageView
+        android:id="@+id/backgroundLogo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ns_background"
+        android:scaleType="centerCrop"
+        android:alpha="0.52"
+        android:contentDescription="NS Launcher background" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99020817" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NS"
+            android:textColor="#18DFFF"
+            android:textSize="64sp"
+            android:textStyle="bold"
+            android:shadowColor="#008DFF"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="18" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LAUNCHER"
+            android:textColor="#D8F8FF"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.18"
+            android:layout_marginBottom="38dp" />
+
+        <Button
+            android:id="@+id/playButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="▶  ИГРАТЬ"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#00101B"
+            android:backgroundTint="#13DDF7" />
+
+        <Button
+            android:id="@+id/versionButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="14dp"
+            android:text="▣  ВЫБОР ВЕРСИИ"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#D9F9FF"
+            android:backgroundTint="#073B70" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginTop="14dp"
+            android:text="⚙  НАСТРОЙКИ"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#D9F9FF"
+            android:backgroundTint="#073B70" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:text="Minecraft Java • Android"
+            android:textColor="#8CB8D7"
+            android:textSize="12sp" />
+    </LinearLayout>
+</FrameLayout>
